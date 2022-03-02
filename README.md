@@ -1,4 +1,4 @@
-# node version: 14.17.5
+# node version: ^14.x.x
 
 # start server
 
