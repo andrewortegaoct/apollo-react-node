@@ -1,0 +1,52 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+select,
+input {
+  margin: 1em 0;
+}
+
+.btn-md {
+  width: 240px;
+}
+
+.list-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  padding: 1em;
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin: 0.5em 0;
+}
+
+.place {
+  display: flex;
+  flex-direction: column;
+}
